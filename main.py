@@ -14,10 +14,6 @@ Original file is located at
 !pip install google-ai-generativelanguage>=0.6.18,<0.7.0
 !pip install langchain-community
 
-import os
-#Write the API key to a .env file
-with open(".env", "w") as f:
-    f.write("GOOGLE_API_KEY=AIzaSyC5XRS7Vt6hzqD5tCyvAwxOaSYj9uFNs7o")
 
 # Install dependencies (to be run separately, not in production code)
 import os
